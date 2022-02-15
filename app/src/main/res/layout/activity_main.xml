@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.FA_LoviceSunuwar_c0835390_Android.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-black"
+                android:onClick="btnClick"
+                android:text="Clear"
+                android:textColor="#E91E63" />
+
+            <Button
+                android:id="@+id/btn_getlocatiomn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="btnClick"
+                android:text="Current Location"
+                android:textColor="#E91E63" />
+            <Button
+                android:id="@+id/btn_hospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="btnClick"
+                android:text="Mall"
+                android:textColor="#E91E63" />
+
+            <Button
+                android:id="@+id/btn_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="btnClick"
+                android:text="Park"
+                android:textColor="#E91E63" />
+
+            <Button
+                android:id="@+id/btn_museum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="btnClick"
+                android:text="Stadium"
+                android:textColor="#E91E63" />
+
+            <Button
+                android:id="@+id/btn_library"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="btnClick"
+                android:text="Library"
+                android:textColor="#E91E63" />
+
+            <Button
+                android:id="@+id/btn_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="btnClick"
+                android:text="Hotel"
+                android:textColor="#E91E63" />
+
+            <Button
+                android:id="@+id/btn_cafe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="btnClick"
+                android:text="Pizza"
+                android:textColor="#E91E63" />
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:text="Saved"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:text="Places"
+                />
+
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_Fav_place"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_favplace"
+            android:onClick="btnClick"
+            android:src="@android:drawable/ic_menu_myplaces"
+            android:text="Get Direction"
+            android:textColor="#E91E63"
+            android:tint="#E91E63" />
+    </LinearLayout>
+</LinearLayout>
