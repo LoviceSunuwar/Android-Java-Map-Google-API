@@ -12,7 +12,7 @@ public class ParseData {
         private HashMap<String,String> getNearByPlace(JSONObject jsonObject) {
 
         HashMap<String,String>  googleplace = new HashMap<>();
-        String placeName = "-NA-";
+        //String placeName = "-NA-";
         String  vicinity = "-NA-";
         String lat = "";
         String lng = "";
