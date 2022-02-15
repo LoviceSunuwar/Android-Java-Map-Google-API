@@ -236,7 +236,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "resturent";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "restaurant", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Park", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.btn_museum:
@@ -246,7 +246,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "museum";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "museum", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Stadium", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.btn_cafe:
@@ -256,7 +256,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "cafe";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "cafe", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "pizza", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.btn_library:
@@ -275,7 +275,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "school";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "Schools", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Hotel", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_hospital:
                 mMap.clear();
@@ -284,7 +284,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "hospital";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "Hospital", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Mall", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_getlocatiomn:
                 getUserLocation();
