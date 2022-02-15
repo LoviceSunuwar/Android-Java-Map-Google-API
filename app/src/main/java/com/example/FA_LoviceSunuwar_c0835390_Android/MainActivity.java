@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     DatabaseHelper mDatabase;
     //get user lopcation
 
+    private String act;
     private FusedLocationProviderClient fusedLocationProviderClient;
     LocationCallback locationCallback;
     LocationRequest locationRequest;
