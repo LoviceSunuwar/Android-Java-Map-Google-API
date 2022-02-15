@@ -16,7 +16,9 @@
             android:layout_marginBottom="5dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#E91E63"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="@font/ubuntu_bold"
+            />
 
         <TextView
             android:id="@+id/tv_desc"
@@ -24,17 +26,22 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#630404" />
+            android:textColor="#630404"
+
+            android:fontFamily="@font/ubuntu_medium"/>
 
         <TextView
             android:id="@+id/tv_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#9E0303" />
+            android:textColor="#9E0303"
+            android:fontFamily="@font/ubuntu_bold"
+        />
 
         <TextView
             android:id="@+id/tv_visit"
+            android:fontFamily="@font/ubuntu_medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"

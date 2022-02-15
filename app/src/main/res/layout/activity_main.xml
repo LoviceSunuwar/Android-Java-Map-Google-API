@@ -25,7 +25,7 @@
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="@font/ubuntu_medium"
                 android:onClick="btnClick"
                 android:text="Clear"
                 android:textColor="#E91E63" />
@@ -37,6 +37,7 @@
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/ubuntu_medium"
                 android:onClick="btnClick"
                 android:text="Current Location"
                 android:textColor="#E91E63" />
@@ -46,6 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/ubuntu_medium"
                 android:onClick="btnClick"
                 android:text="Mall"
                 android:textColor="#E91E63" />
@@ -58,6 +60,7 @@
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
                 android:onClick="btnClick"
+                android:fontFamily="@font/ubuntu_medium"
                 android:text="Park"
                 android:textColor="#E91E63" />
 
@@ -67,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/ubuntu_medium"
                 android:onClick="btnClick"
                 android:text="Stadium"
                 android:textColor="#E91E63" />
@@ -76,6 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
+                android:fontFamily="@font/ubuntu_medium"
                 android:background="@color/colorPrimaryDark"
                 android:onClick="btnClick"
                 android:text="Library"
@@ -87,6 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/ubuntu_medium"
                 android:onClick="btnClick"
                 android:text="Hotel"
                 android:textColor="#E91E63" />
@@ -99,6 +105,7 @@
                 android:background="@color/colorPrimaryDark"
                 android:onClick="btnClick"
                 android:text="Pizza"
+                android:fontFamily="@font/ubuntu_medium"
                 android:textColor="#E91E63" />
 
 
@@ -126,6 +133,7 @@
                 android:textSize="30sp"
                 android:textColor="#000000"
                 android:text="Saved"
+                android:fontFamily="@font/ubuntu_medium"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -133,6 +141,7 @@
                 android:textSize="30sp"
                 android:textColor="#000000"
                 android:text="Places"
+                android:fontFamily="@font/ubuntu_medium"
                 />
 
 
@@ -149,6 +158,8 @@
             android:src="@android:drawable/ic_menu_myplaces"
             android:text="Get Direction"
             android:textColor="#E91E63"
+
+            android:fontFamily="@font/ubuntu_medium"
             android:tint="#E91E63" />
     </LinearLayout>
     <fragment
