@@ -50,7 +50,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
 
-    //GoogleMap mMap;
+    GoogleMap mMap;
     double lat, longi, dest_lat, dest_long;
     final int radious = 1000;
     List<Address> addresses;
