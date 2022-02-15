@@ -17,9 +17,9 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="0.5dp"
             android:layout_weight="2"
-            android:background="#FFEB3B"
+            android:background="@color/colorPrimaryDark"
             android:onClick="onClick"
-            android:text="Choose Custom Points"
+            android:text="Choose Favourite Places"
             android:textColor="#E91E63" />
     </LinearLayout>
     <fragment
@@ -39,7 +39,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
-            android:background="@drawable/buttton_default"
+            android:background="@color/colorPrimary"
             android:onClick="btnClick"
             android:textColor="#fff" />
 
@@ -55,7 +55,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/buttton_default"
+            android:background="@color/colorPrimaryDark"
             android:onClick="placeVisited"
             android:text="Visit Place"
             android:textColor="#E91E63" />

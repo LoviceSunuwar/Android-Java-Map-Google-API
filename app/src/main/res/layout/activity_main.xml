@@ -107,16 +107,11 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-    <fragment
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+
 
     <LinearLayout
         android:orientation="horizontal" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="95dp"
         >
 
         <LinearLayout
@@ -156,4 +151,10 @@
             android:textColor="#E91E63"
             android:tint="#E91E63" />
     </LinearLayout>
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 </LinearLayout>
