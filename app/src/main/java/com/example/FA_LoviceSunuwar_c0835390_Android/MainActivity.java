@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     Marker mMarker;
 
     DatabaseHelper mDatabase;
-    //get user lopcation
+    get user lopcation
 
     private String act;
     private FusedLocationProviderClient fusedLocationProviderClient;
